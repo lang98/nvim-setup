@@ -70,6 +70,7 @@ set showmatch
 set incsearch
 set ignorecase
 set smartcase
+set mouse=niv
 
 colorscheme github_dark
 
