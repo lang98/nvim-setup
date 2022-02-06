@@ -1,5 +1,7 @@
 # nvim-setup
 
+## vim setup
+
 ```vim
 call plug#begin('~/.vim/plugged')
 
@@ -28,7 +30,6 @@ Plug 'dense-analysis/ale'
 Plug 'rust-lang/rust.vim'
 Plug 'justinmk/vim-dirvish'
 Plug 'psliwka/vim-smoothie'
-Plug 'python-mode/python-mode'
 Plug 'kassio/neoterm'
 
 call plug#end()
@@ -91,3 +92,8 @@ nnoremap <silent> gr :ALEFindReferences<CR>
 nnoremap <C-g> :Ttoggle<CR>
 
 ```
+
+## Additional
+
+### Python auto completion
+`:CocInstall coc-pyright`
